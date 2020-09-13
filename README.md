@@ -10,21 +10,22 @@ Using Flask, these two modules will be combined and using HTML, CSS and Bootstra
 
 * Dataset Collection
 The dataset consists of about 11000 images which are collected from various sources like TrashNet, Kaggle Dataset on Waste Objects and ImageNet. These images were classified into
-12 classes on the basis of the requirement of the project. The organisation of the data is as follows:
-| Class | Number of Images |
-| ------------- | :-------------: |
-| Bottle | 874 |
-| Cans | 982 |
-| Cardboard | 1061 |
-| Cups | 614 |
-| Cutlery | 996 |
-| Jars | 1012 |
-| Accessories | 1026 |
-| Organic Waste | 1213 |
-| Paper | 1008 |
-| Plastic Bag | 671 |
-| Stationary | 1309 |
-| Utensil | 930 |
+12 classes on the basis of the requirement of the project. The organisation of the data is as follows-
+
+|  Class          |  Number of Images  |
+|  --- |  ---  |
+|  Bottle         |  874               |
+|  Cans           |  982               |
+|  Cardboard      |  1061              |
+|  Cups           |  614               |
+|  Cutlery        |  996               |
+|  Jars           |  1012              |
+|  Accessories    |  1026              |
+|  Organic Waste  |  1213              |
+|  Paper          |  1008              |
+|  Plastic Bag    |  671               |
+|  Stationary     |  1309              |
+|  Utensil        |  930               |
 
 Due to less data, data augmentation is performed which will help to generalise the model better.  
 
