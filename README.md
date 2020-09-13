@@ -1,4 +1,4 @@
-#Recommending Reusing and Recycling DIY Ideas using Object Recognition
+# Recommending Reusing and Recycling DIY Ideas using Object Recognition
 
 This project will help you explore various domains like Image Recognition using Convolutional Neural Networks, Computer Vision, Web Scraping and Web Development using Flask. 
 The Image Recognition will help identify the waste object in the image with the help of Convolutional Neural Networks. Using OpenCV, a popular library used for solving Computer
@@ -12,7 +12,7 @@ Using Flask, these two modules will be combined and using HTML, CSS and Bootstra
 The dataset consists of about 11000 images which are collected from various sources like TrashNet, Kaggle Dataset on Waste Objects and ImageNet. These images were classified into
 12 classes on the basis of the requirement of the project. The organisation of the data is as follows:
 | Class | Number of Images |
-| ------------- | ------------- |
+| ------------- | :-------------: |
 | Bottle | 874 |
 | Cans | 982 |
 | Cardboard | 1061 |
