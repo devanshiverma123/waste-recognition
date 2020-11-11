@@ -1,11 +1,12 @@
 # Recommending Reusing and Recycling DIY Ideas using Object Recognition
 
-With the easily availability and low cost of resources, the rate of waste production is constantly on the rise. Through our project we aim to slow down the rate of this waste production by engaging the user creatively. Our project provides a 
-This project will help you explore various domains like Image Recognition using Convolutional Neural Networks, Computer Vision, Web Scraping and Web Development using Flask. 
-The Image Recognition will help identify the waste object in the image with the help of Convolutional Neural Networks. Using OpenCV, a popular library used for solving Computer
-Vision problems, the objects can be idenitified in real-time using the web cam of the system. 
-Using Web Scraping Module, Reusing and Recycling DIY recommendations will be fetched based on the results produced from the Image Recognition Module(IRM).
-Using Flask, these two modules will be combined and using HTML, CSS and Bootstrap, an interface will be created for the user to upload a image and get recommendation results.
+With the easily availability and low cost of resources, the rate of waste production is constantly on the rise. Through our project we aim to slow down the rate of this waste production by engaging the user creatively. Our project provides a waste object recognition system and a recommendation system.
+Through this project we experimented with various domains like Deep Learning, Computer Vision and a Recommender System. We brought them together through a web application using the Flask framework.
+
+There are two main modules:
+1. The Image Recognition Module consists of the Convolutional Neural Network which is trained on about 11000 images in order to classify waste objects into various classes. Further, the webcam of the computer system is used to capture the frame and identify objects in real time. 
+
+2. In the Web Scraping Module, using the results from the Image Recognition Module, recommendations are made to the user to engage them creatively. The recommendations include DIY reusing ideas that aim at engaging the user creatively.
 
 <img src="https://github.com/devanshiverma123/waste-recognition/blob/master/WSM1.png" width="600" height="350"/>
 
@@ -48,7 +49,7 @@ done in real-time.
 As the number of images is uneven in every class, it is important that the data is divided into training and validation data in an equal proportion for every class. 
 
 
-<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/cb3.png" width="600" height="350"/>
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/cb3.PNG" width="600" height="350"/>
 
 * Building the Model
 
@@ -58,8 +59,7 @@ make a few changes. A drop out layer is introduced to avoid overfitting. Adam op
 
 * Training the Model
 
-The model is trained on 50 epochs with a callback function, with the condition of setting the base accuracy as 83%. Once a validation accuracy of 83% is achieved, the model
-will stop training if in any epoch, the accuracy goes below this point.
+The model is trained on 50 epochs with a callback function, that will stop training the model if the validation accuracy decreases consecutively for 3 epochs. 
 
 * Testing the Model
 
@@ -73,6 +73,7 @@ Web Scraping Module to get reusing and recycling DIY recommendations.
 <img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png" width="600" height="350"/>
 
 * Results
+
 The best model has the training accuracy of 93.63% and validation accuracy of 87.48%.
 
 <img src="https://github.com/devanshiverma123/waste-recognition/blob/master/Accuracy.png" width="600" height="350"/>
