@@ -1,11 +1,15 @@
 # Recommending Reusing and Recycling DIY Ideas using Object Recognition
 
-This project focuses on collaboration between various
+With the easily availability and low cost of resources, the rate of waste production is constantly on the rise. Through our project we aim to slow down the rate of this waste production by engaging the user creatively. Our project provides a 
 This project will help you explore various domains like Image Recognition using Convolutional Neural Networks, Computer Vision, Web Scraping and Web Development using Flask. 
 The Image Recognition will help identify the waste object in the image with the help of Convolutional Neural Networks. Using OpenCV, a popular library used for solving Computer
 Vision problems, the objects can be idenitified in real-time using the web cam of the system. 
 Using Web Scraping Module, Reusing and Recycling DIY recommendations will be fetched based on the results produced from the Image Recognition Module(IRM).
 Using Flask, these two modules will be combined and using HTML, CSS and Bootstrap, an interface will be created for the user to upload a image and get recommendation results.
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/WSM1.png" width="600" height="350"/>
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/1.jpg" width="600" height="350"/>
 
 ## Image Recogntion Module
 
@@ -30,12 +34,21 @@ The dataset consists of about 11000 images which are collected from various sour
 
 Due to less data, data augmentation is performed which will help to generalise the model better.  
 
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/Data%20Distribution.png" width="600" height="350"/>
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/cb1.png" width="600" height="350"/>
+
+
 * Image Preprocessing
 
 The images need to be converted into an array. All the images are converted into 224 x 224 x 3, where 3 represents the RGB channel. We can also use built-in functions to do
 the same. The labels of the classes need to be encoded. The data is then divided into training and validation data, with a split of 80% and 20% respectively. The testing is 
 done in real-time. 
 As the number of images is uneven in every class, it is important that the data is divided into training and validation data in an equal proportion for every class. 
+
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/cb3.png" width="600" height="350"/>
 
 * Building the Model
 
@@ -55,10 +68,19 @@ Once the model is trained, the testing of the model is done in real-time using O
 needs to be detected. The results are stored and also displayed back on the screen. The results are stored in the form of string so that they can further be used in the 
 Web Scraping Module to get reusing and recycling DIY recommendations.
 
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r5%20(2).png" width="600" height="350"/>
+
 <img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png" width="600" height="350"/>
+
+* Results
+The best model has the training accuracy of 93.63% and validation accuracy of 87.48%.
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/Accuracy.png" width="600" height="350"/>
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/Loss.png" width="600" height="350"/>
 
 
 ## Web Scraping Module
 
-Web Scraping is done using Python. 
+Web Scraping is done using Python and then a recommendation is made to the user. The recommendation provides reusing and recycling DIY ideas. The aim is to reduce the rate of waste production.
 
