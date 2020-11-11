@@ -55,7 +55,7 @@ Once the model is trained, the testing of the model is done in real-time using O
 needs to be detected. The results are stored and also displayed back on the screen. The results are stored in the form of string so that they can further be used in the 
 Web Scraping Module to get reusing and recycling DIY recommendations.
 
-<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png" width="400" height="800"/>
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png" width="800" height="500"/>
 
 
 ## Web Scraping Module
