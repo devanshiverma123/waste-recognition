@@ -54,7 +54,8 @@ With this aspect of the project, we venture into the Computer Vision domain. Usi
 Once the model is trained, the testing of the model is done in real-time using OpenCV. The webcam is used to capture the image. A mask is created to enclose the object that 
 needs to be detected. The results are stored and also displayed back on the screen. The results are stored in the form of string so that they can further be used in the 
 Web Scraping Module to get reusing and recycling DIY recommendations.
-<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png" width="100" height="100"/>
+
+<img src="https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png" width="1000" height="1200"/>
 ![alt text](https://github.com/devanshiverma123/waste-recognition/blob/master/r4%20(2).png?raw=true)
 
 ## Web Scraping Module
