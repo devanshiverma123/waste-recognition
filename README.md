@@ -1,5 +1,6 @@
 # Recommending Reusing and Recycling DIY Ideas using Object Recognition
 
+This project focuses on collaboration between various
 This project will help you explore various domains like Image Recognition using Convolutional Neural Networks, Computer Vision, Web Scraping and Web Development using Flask. 
 The Image Recognition will help identify the waste object in the image with the help of Convolutional Neural Networks. Using OpenCV, a popular library used for solving Computer
 Vision problems, the objects can be idenitified in real-time using the web cam of the system. 
@@ -40,7 +41,7 @@ As the number of images is uneven in every class, it is important that the data 
 
 ResNet50 is a transfer learning model, which is a very deep network. This model has been pre-trained on ImageNet dataset. The ouput layers for this project is different so we 
 make a few changes. A drop out layer is introduced to avoid overfitting. Adam optimizer is used with a learning rate of 0.0001. Imagenet weights work well in the model. 
-For the last layer, 
+
 
 * Training the Model
 
@@ -49,9 +50,11 @@ will stop training if in any epoch, the accuracy goes below this point.
 
 * Testing the Model
 
+With this aspect of the project, we venture into the Computer Vision domain. Using the ability of the computer to "see", the input image is classified into various waste classes.
 Once the model is trained, the testing of the model is done in real-time using OpenCV. The webcam is used to capture the image. A mask is created to enclose the object that 
 needs to be detected. The results are stored and also displayed back on the screen. The results are stored in the form of string so that they can further be used in the 
 Web Scraping Module to get reusing and recycling DIY recommendations.
+![alt text](https://github.com/[devanshiverma123]/[waste-recognition]/blob/r4 (2).png?raw=true)
 
 ## Web Scraping Module
 
